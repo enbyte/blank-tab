@@ -1,0 +1,13 @@
+{
+  "name": "enbyte's site unblocker",
+  "description": "Gets around impero site blocking, quick and easy. IT guys: thought you could block this by blocking the GitHub? Ya thought wrong.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "*://*/*"
+  ]
+}
